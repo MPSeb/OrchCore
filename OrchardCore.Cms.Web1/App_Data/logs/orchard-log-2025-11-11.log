@@ -1,0 +1,583 @@
+2025-11-11 12:24:52.7638||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 12:24:52.8759||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 12:24:52.8812||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:21:29.4965||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:21:29.5675||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:21:29.5734||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:24:44.5952||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:24:44.6517||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:24:44.6517||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:25:28.2091|Default|00-b48b05b199f74ae3c4147aa553fc57eb-13d6ce7ce07f8231-00|3|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|ERROR|The view 'Create' was not found. Searched locations: /Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml, /Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml, /Areas/OrchardCore.Cms.Web1/Views/Shared/Create.cshtml, /Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml, /Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml, /Areas/TheBlogTheme/Views/Shared/Create.cshtml, /Areas/OrchardCore.Roles/Views/Shared/Create.cshtml, /Areas/OrchardCore.Placements/Views/Shared/Create.cshtml, /Areas/OrchardCore.Media/Views/Shared/Create.cshtml, /Areas/OrchardCore.Rules/Views/Shared/Create.cshtml, /Areas/OrchardCore.ContentTypes/Views/Shared/Create.cshtml, /Areas/OrchardCore.Contents/Views/Shared/Create.cshtml, /Areas/OrchardCore.Settings/Views/Shared/Create.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en-US.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Notes/Create.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en-US.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/Create.cshtml, /Views/Shared/Create.en-US.cshtml, /Views/Shared/Create.en.cshtml, /Views/Shared/Create.cshtml, /Pages/Shared/Create.en-US.cshtml, /Pages/Shared/Create.en.cshtml, /Pages/Shared/Create.cshtml 
+2025-11-11 14:25:28.2548|Default|00-b48b05b199f74ae3c4147aa553fc57eb-13d6ce7ce07f8231-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml
+/Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml
+/Areas/OrchardCore.Cms.Web1/Views/Shared/Create.cshtml
+/Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml
+/Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml
+/Areas/TheBlogTheme/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Roles/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Placements/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Media/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Rules/Views/Shared/Create.cshtml
+/Areas/OrchardCore.ContentTypes/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Contents/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Settings/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en-US.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Notes/Create.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en-US.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/Create.cshtml
+/Views/Shared/Create.en-US.cshtml
+/Views/Shared/Create.en.cshtml
+/Views/Shared/Create.cshtml
+/Pages/Shared/Create.en-US.cshtml
+/Pages/Shared/Create.en.cshtml
+/Pages/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 14:28:47.7806||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:28:47.8345||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:28:47.8345||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:29:04.5038|Default|00-a84c7d75517640d1f8e6923b5e84bd79-a26ca64db8a9f718-00|3|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|ERROR|The view 'Create' was not found. Searched locations: /Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml, /Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml, /Areas/OrchardCore.Cms.Web1/Views/Shared/Create.cshtml, /Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml, /Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml, /Areas/TheBlogTheme/Views/Shared/Create.cshtml, /Areas/OrchardCore.Roles/Views/Shared/Create.cshtml, /Areas/OrchardCore.Placements/Views/Shared/Create.cshtml, /Areas/OrchardCore.Media/Views/Shared/Create.cshtml, /Areas/OrchardCore.Rules/Views/Shared/Create.cshtml, /Areas/OrchardCore.ContentTypes/Views/Shared/Create.cshtml, /Areas/OrchardCore.Contents/Views/Shared/Create.cshtml, /Areas/OrchardCore.Settings/Views/Shared/Create.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en-US.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Notes/Create.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en-US.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/Create.cshtml, /Views/Shared/Create.en-US.cshtml, /Views/Shared/Create.en.cshtml, /Views/Shared/Create.cshtml, /Pages/Shared/Create.en-US.cshtml, /Pages/Shared/Create.en.cshtml, /Pages/Shared/Create.cshtml 
+2025-11-11 14:29:04.5322|Default|00-a84c7d75517640d1f8e6923b5e84bd79-a26ca64db8a9f718-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml
+/Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml
+/Areas/OrchardCore.Cms.Web1/Views/Shared/Create.cshtml
+/Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Notes/Create.cshtml
+/Areas/TheBlogTheme/Views/OrchardCore.Cms.Module1/Shared/Create.cshtml
+/Areas/TheBlogTheme/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Roles/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Placements/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Media/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Rules/Views/Shared/Create.cshtml
+/Areas/OrchardCore.ContentTypes/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Contents/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Settings/Views/Shared/Create.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en-US.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Notes/Create.en.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Notes/Create.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en-US.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/Create.en.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/Create.cshtml
+/Views/Shared/Create.en-US.cshtml
+/Views/Shared/Create.en.cshtml
+/Views/Shared/Create.cshtml
+/Pages/Shared/Create.en-US.cshtml
+/Pages/Shared/Create.en.cshtml
+/Pages/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 14:29:53.5790||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:29:53.6606||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:29:53.6681||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:32:39.4930||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:32:39.5566||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:32:39.5566||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:34:19.0168||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:34:19.0776||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:34:19.0776||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 14:37:55.3599||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 14:37:55.4086||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 14:37:55.4124||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:06:51.9583||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:06:52.1052||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:06:52.1430||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:08:23.2714||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:08:23.3888||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:08:23.4567||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:30:29.2803||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:30:29.3394||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:30:29.3394||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:31:19.0170||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:31:19.0754||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:31:19.0754||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:35:20.5346||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:35:20.6242||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:35:20.6242||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:37:31.5711||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:37:31.6809||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:37:31.6809||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:38:42.7422||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:38:42.8263||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:38:42.8263||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:45:42.3091||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:45:42.3928||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:45:42.3996||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:46:49.7438||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:46:49.8055||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:46:49.8055||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 15:49:02.3495||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 15:49:02.4268||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 15:49:02.4336||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 17:31:50.8981||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 17:31:50.9520||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 17:31:50.9520||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 17:44:32.6224||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 17:44:32.6765||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 17:44:32.6808||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 17:49:04.7676||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 17:49:04.8264||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 17:49:04.8264||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 17:52:21.0660||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 17:52:21.1136||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 17:52:21.1181||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 20:42:40.3200||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 20:42:40.3823||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 20:42:40.3897||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 20:52:18.2437||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 20:52:18.5876||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 20:52:18.6965||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 20:57:17.9301||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 20:57:18.0314||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 20:57:18.0425||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:08:02.1075||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:08:02.1728||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:08:02.1728||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:17:58.3831||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:17:58.4780||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:17:58.5225||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:22:51.0928||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:22:51.1550||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:22:51.1550||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:43:01.4484||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:43:01.5038||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:43:01.5100||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:44:53.2260||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:44:53.2947||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:44:53.2947||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:45:54.6570||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:45:54.7667||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:45:54.7736||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 21:49:36.7007||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 21:49:36.7691||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 21:49:36.7691||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 22:26:35.3143||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 22:26:35.3697||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 22:26:35.3697||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 22:27:43.5486|Default|00-73459c6d3751d50134f5b0495199cc14-b311d5b79ebf0ad5-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at System.Data.Common.DbTransaction.CommitAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.SaveChangesAsync(CancellationToken cancellationToken)
+   at OrchardCore.Data.Documents.DocumentStore.CommitAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.BeforeDisposeAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at System.Data.Common.DbTransaction.CommitAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.SaveChangesAsync(CancellationToken cancellationToken)
+   at OrchardCore.Data.Documents.DocumentStore.CommitAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.BeforeDisposeAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 22:32:40.9849||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 22:32:41.2193||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 22:32:41.2271||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 22:40:27.4185||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 22:40:27.4701||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 22:40:27.4701||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 22:41:51.1820||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 22:41:51.3447||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 22:41:51.3584||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 22:44:17.4296||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 22:44:17.4978||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 22:44:17.4978||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 22:46:18.4450|Default|00-7edc1d04ff2e8f4071e54bc76bb7f7dc-d2cf76fbedffafa7-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at System.Data.Common.DbTransaction.CommitAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.SaveChangesAsync(CancellationToken cancellationToken)
+   at OrchardCore.Data.Documents.DocumentStore.CommitAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.BeforeDisposeAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at System.Data.Common.DbTransaction.CommitAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.SaveChangesAsync(CancellationToken cancellationToken)
+   at OrchardCore.Data.Documents.DocumentStore.CommitAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.BeforeDisposeAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 22:47:53.7511|Default|00-f30fa5d7229fb035abab207b6f748ac5-68b6078e37cbc802-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at System.Data.Common.DbTransaction.CommitAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.SaveChangesAsync(CancellationToken cancellationToken)
+   at OrchardCore.Data.Documents.DocumentStore.CommitAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.BeforeDisposeAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at System.Data.Common.DbTransaction.CommitAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.CommitOrRollbackTransactionAsync(CancellationToken cancellationToken)
+   at YesSql.Session.SaveChangesAsync(CancellationToken cancellationToken)
+   at OrchardCore.Data.Documents.DocumentStore.CommitAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.BeforeDisposeAsync()
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 22:57:13.9311||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 22:57:13.9899||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 22:57:13.9945||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:00:30.7962||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:00:30.8656||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:00:30.8717||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:01:55.7950||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:01:55.8454||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:01:55.8454||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:02:55.0571||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:02:55.1505||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:02:55.1505||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:06:01.1050||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:06:01.1855||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:06:01.1855||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:08:40.3326||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:08:40.3974||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:08:40.4038||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:10:53.4061||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:10:53.4975||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:10:53.4975||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:13:07.1287||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:13:07.1796||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:13:07.1796||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:14:38.9409||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:14:38.9938||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:14:38.9938||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:15:12.4230||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:15:12.4928||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:15:12.4928||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:18:21.7876||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:18:21.8364||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:18:21.8364||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:19:47.1809||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:19:47.2398||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:19:47.2466||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:29:25.5514||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:29:25.6454||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:29:25.6527||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:34:59.9621||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:35:00.0432||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:35:00.0432||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:37:13.2445||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:37:13.3034||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:37:13.3079||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:38:17.2975||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:38:17.3671||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:38:17.3717||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:42:22.8712||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:42:22.9314||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:42:22.9314||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:44:16.9482||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:44:17.0054||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:44:17.0102||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:45:20.6392||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:45:20.7251||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:45:20.7304||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:47:37.5306||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:47:37.6378||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:47:37.6378||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:50:09.6285||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:50:09.7198||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:50:09.7198||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-11-11 23:50:28.1606|Default|00-ff5771c27ca99739678bf6938c35bee5-0b3a71e72625b9d0-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Text.Json.Dynamic.JsonDynamicValue' does not contain a definition for 'Text'
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure, CallSite, Object)
+   at AspNetCoreGeneratedDocument.Views_Notes_List.ExecuteAsync() in C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\Views\Notes\List.cshtml:line 14
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure, CallSite, Object)
+   at AspNetCoreGeneratedDocument.Views_Notes_List.ExecuteAsync() in C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\Views\Notes\List.cshtml:line 14
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 23:59:48.4613||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-11-11 23:59:48.5377||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-11-11 23:59:48.5429||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 

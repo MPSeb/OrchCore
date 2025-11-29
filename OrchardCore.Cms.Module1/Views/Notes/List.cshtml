@@ -1,0 +1,92 @@
+﻿@model IEnumerable<OrchardCore.ContentManagement.ContentItem>
+
+<h2>Notes</h2>
+<div style="background-color: #f240f0f0; min-height:100vh;">
+<ul>
+@foreach (var item in Model ?? Enumerable.Empty<OrchardCore.ContentManagement.ContentItem>())
+{
+    <li>
+        <strong>@item.DisplayText</strong>
+
+        @if (item.ContentType == "Note")
+        {
+            var Note = item.Content?.Note as dynamic;
+            var desc = Note?.NoteText?.Text ?? "No description";
+
+            var images = Note?.Images?.Paths as IEnumerable<object>;
+
+            <div style="margin-left: 20px;"><strong>Description:</strong><br> @desc</div>
+
+            @if (images != null)
+            {
+                <div style="margin-left: 20px;">
+                    <strong>Images:</strong>
+                </div>
+                <div style="display:flex; gap:10px; margin-left: 20px">
+                    @foreach (var img in images)
+                    {
+                        <img src="@Url.Content("~/media/" + img)" style="max-width:100px; max-height:100px;" />
+                    }
+                </div>
+            }
+
+            var projectIds = Note?.ProjectContent?.ContentItemIds as IEnumerable<object>;
+            if (projectIds != null)
+            {
+                <div style="margin-left: 20px;"> <strong>Projects:</strong><br> @string.Join(", ", projectIds)</div>
+            }
+        }
+        else if (item.ContentType == "ProjectNote")
+        {
+            var projectPart = item.Content?.ProjectNote as dynamic;
+            var listPart = item.Content?.ListPart as dynamic;
+            var contentText = projectPart?.Content?.Text ?? "No content";
+
+            var images = projectPart?.Images?.Paths as IEnumerable<object>;
+
+            <div style="margin-left: 20px;"><strong>Description:</strong> <br> @contentText</div>
+            <div style="margin-left: 20px;"><strong>Images:</strong></div>
+            @if (images != null)
+            {
+                <div style="display:flex; gap:10px; margin-top:0.5em; margin-left: 20px">
+                    @foreach (var img in images)
+                    {
+                        <img src="@Url.Content("~/media/" + img)" style="max-width:100px; max-height:100px; border-radius:6px;" />
+                    }
+                </div>
+            }
+
+
+            var notesForThisProject = Model
+            .Where(n => n.ContentType == "Note")
+            .Where(n =>
+            {
+                dynamic note = n.Content?.Note;
+                if (note?.ProjectContent?.ContentItemIds == null)
+                    return false;
+
+                foreach (var pid in note.ProjectContent.ContentItemIds)
+                {
+                    if ((string)pid == item.ContentItemId)
+                        return true;
+                }
+                return false;
+            });
+            @if (notesForThisProject.Any())
+            {
+                <div style="margin-left: 20px;">
+                    <strong>Associated Notes:</strong>
+                    <ul>
+                        @foreach (var n in notesForThisProject)
+                        {
+                            @n.DisplayText
+                            <br>
+                        }
+                    </ul>
+                </div>
+            }
+        }
+    </li>
+}
+</ul>
+</div>

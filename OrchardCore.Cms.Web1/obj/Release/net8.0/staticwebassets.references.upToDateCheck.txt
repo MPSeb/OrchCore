@@ -1,0 +1,2 @@
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Release\net8.0\staticwebassets.build.json

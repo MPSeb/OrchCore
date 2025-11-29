@@ -1,0 +1,41 @@
+﻿@{
+    var projects = ViewBag.Projects as IEnumerable<OrchardCore.ContentManagement.ContentItem> 
+    ?? Enumerable.Empty<OrchardCore.ContentManagement.ContentItem>();
+}
+
+<h2>Create Note</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Title:</label>
+        <br>
+        <textarea name="title" required></textarea>
+    </div>
+
+    <div>
+        <label>Description:</label>
+        <br>
+
+        <textarea name="description"></textarea>
+    </div>
+
+    <div>
+        <label>Project:</label>
+        <br>
+
+        <select name="projectId">
+            <option value="">-- none --</option>
+            @foreach (var p in projects)
+            {
+                <option value="@p.ContentItemId">@p.DisplayText</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <br>
+        <button type="submit">Submit</button>
+    </div>
+</form>

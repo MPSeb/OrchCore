@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OrchardCore.Cms.Module1</id>
+    <version>1.0.0</version>
+    <authors>OrchardCore.Cms.Module1</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="OrchardCore.ContentManagement" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.ContentTypes.Abstractions" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.DisplayManagement" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="OrchardCore.Module.Targets" version="2.2.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\bin\Debug\net8.0\OrchardCore.Cms.Module1.dll" target="lib\net8.0\OrchardCore.Cms.Module1.dll" />
+    <file src="C:\Users\MP\.nuget\packages\orchardcore.module.targets\2.2.1\build\Package.Build.props" target="build\OrchardCore.Cms.Module1.props" />
+  </files>
+</package>
