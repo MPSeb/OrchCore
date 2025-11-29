@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
             "OrchardCore.ContentManagement": {
               "target": "Package",
               "version": "[2.2.1, )"

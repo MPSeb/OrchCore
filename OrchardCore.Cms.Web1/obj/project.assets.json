@@ -10865,6 +10865,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "OrchardCore.ContentFields": "2.2.1",
           "OrchardCore.ContentManagement": "2.2.1",
           "OrchardCore.ContentTypes.Abstractions": "2.2.1",
           "OrchardCore.DisplayManagement": "2.2.1",
@@ -10875,6 +10876,25 @@
         },
         "runtime": {
           "bin/placeholder/OrchardCore.Cms.Module1.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Theme1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OrchardCore.ContentManagement": "2.2.1",
+          "OrchardCore.DisplayManagement": "2.2.1",
+          "OrchardCore.ResourceManagement": "2.2.1",
+          "OrchardCore.Theme.Targets": "2.2.1"
+        },
+        "compile": {
+          "bin/placeholder/OrchardCore.Theme1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrchardCore.Theme1.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -26762,6 +26782,11 @@
       "type": "project",
       "path": "../OrchardCore.Cms.Module1/OrchardCore.Cms.Module1.csproj",
       "msbuildProject": "../OrchardCore.Cms.Module1/OrchardCore.Cms.Module1.csproj"
+    },
+    "OrchardCore.Theme1/1.0.0": {
+      "type": "project",
+      "path": "../OrchardCore.Theme1/OrchardCore.Theme1.csproj",
+      "msbuildProject": "../OrchardCore.Theme1/OrchardCore.Theme1.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -26771,6 +26796,7 @@
       "OrchardCore.Cms.Module1 >= 1.0.0",
       "OrchardCore.Logging.NLog >= 2.2.1",
       "OrchardCore.Queries >= 2.2.1",
+      "OrchardCore.Theme1 >= 1.0.0",
       "OrchardCore.Widgets >= 2.2.1"
     ]
   },
@@ -26808,6 +26834,9 @@
           "projectReferences": {
             "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj": {
               "projectPath": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj"
+            },
+            "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Theme1\\OrchardCore.Theme1.csproj": {
+              "projectPath": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Theme1\\OrchardCore.Theme1.csproj"
             }
           }
         }

@@ -25,3 +25,4 @@ C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Debug\
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Debug\net8.0\refint\OrchardCore.Cms.Module1.dll
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Debug\net8.0\OrchardCore.Cms.Module1.pdb
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Debug\net8.0\ref\OrchardCore.Cms.Module1.dll
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Module1\obj\Debug\net8.0\OrchardCore.Cms.Module1.sourcelink.json

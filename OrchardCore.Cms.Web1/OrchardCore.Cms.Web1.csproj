@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OrchardCore.Cms.Module1\OrchardCore.Cms.Module1.csproj" />
+    <ProjectReference Include="..\OrchardCore.Theme1\OrchardCore.Theme1.csproj" />
   </ItemGroup>
 
 </Project>

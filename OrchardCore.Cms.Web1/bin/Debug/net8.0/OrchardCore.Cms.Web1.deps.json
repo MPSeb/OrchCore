@@ -13,6 +13,7 @@
           "OrchardCore.Cms.Module1": "1.0.0",
           "OrchardCore.Logging.NLog": "2.2.1",
           "OrchardCore.Queries": "2.2.1",
+          "OrchardCore.Theme1": "1.0.0",
           "OrchardCore.Widgets": "2.2.1"
         },
         "runtime": {
@@ -7431,6 +7432,7 @@
       },
       "OrchardCore.Cms.Module1/1.0.0": {
         "dependencies": {
+          "OrchardCore.ContentFields": "2.2.1",
           "OrchardCore.ContentManagement": "2.2.1",
           "OrchardCore.ContentTypes.Abstractions": "2.2.1",
           "OrchardCore.DisplayManagement": "2.2.1",
@@ -7438,6 +7440,20 @@
         },
         "runtime": {
           "OrchardCore.Cms.Module1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OrchardCore.Theme1/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentManagement": "2.2.1",
+          "OrchardCore.DisplayManagement": "2.2.1",
+          "OrchardCore.ResourceManagement": "2.2.1",
+          "OrchardCore.Theme.Targets": "2.2.1"
+        },
+        "runtime": {
+          "OrchardCore.Theme1.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -10602,6 +10618,11 @@
       "hashPath": "zstring.2.6.0.nupkg.sha512"
     },
     "OrchardCore.Cms.Module1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrchardCore.Theme1/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

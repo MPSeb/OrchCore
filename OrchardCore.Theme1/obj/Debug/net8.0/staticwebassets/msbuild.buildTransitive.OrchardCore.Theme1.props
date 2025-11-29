@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OrchardCore.Theme1.props" />
+</Project>

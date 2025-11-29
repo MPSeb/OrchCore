@@ -452,7 +452,6 @@ C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\OrchardCore.Cms.Web1.AssemblyInfoInputs.cache
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\OrchardCore.Cms.Web1.AssemblyInfo.cs
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\OrchardCore.Cms.Web1.csproj.CoreCompileInputs.cache
-C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\OrchardCore.Cms.Web1.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\OrchardCore.Cms.Web1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\scopedcss\bundle\OrchardCore.Cms.Web1.styles.css
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\staticwebassets.build.json
@@ -469,3 +468,7 @@ C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\bin\Debug\net8.0\OrchardCore.Cms.Module1.staticwebassets.endpoints.json
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\bin\Debug\net8.0\OrchardCore.Cms.Module1.dll
 C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\bin\Debug\net8.0\OrchardCore.Cms.Module1.pdb
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\obj\Debug\net8.0\OrchardCore.Cms.Web1.sourcelink.json
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\bin\Debug\net8.0\OrchardCore.Theme1.staticwebassets.endpoints.json
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\bin\Debug\net8.0\OrchardCore.Theme1.dll
+C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1\bin\Debug\net8.0\OrchardCore.Theme1.pdb

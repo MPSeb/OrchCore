@@ -1,0 +1,5 @@
+﻿Name: FastTheme
+Author: G0AVEG
+Version: 0.0.1
+Description: Quick demo theme
+BaseTheme: TheAdminTheme
