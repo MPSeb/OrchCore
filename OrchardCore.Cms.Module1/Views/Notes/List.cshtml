@@ -1,7 +1,6 @@
 ﻿@model IEnumerable<OrchardCore.ContentManagement.ContentItem>
 
-<h2>Notes</h2>
-<div style="background-color: #f240f0f0; min-height:100vh;">
+<h2>Notes and Projects</h2>
 <ul>
 @foreach (var item in Model ?? Enumerable.Empty<OrchardCore.ContentManagement.ContentItem>())
 {
@@ -84,9 +83,12 @@
                         }
                     </ul>
                 </div>
+
+                }
             }
-        }
-    </li>
+
+
+        </li>
 }
 </ul>
 </div>

@@ -24,7 +24,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCore.Theme1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3445eac2c37a9e633739e05b11c68c2fa4a15851")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6144b10b1cab8b823e98abc5b0f41af86c223741")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrchardCore.Theme1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrchardCore.Theme1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
