@@ -3,39 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\models\\urgency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\models\\urgency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\drivers\\urgencydisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\drivers\\urgencydisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\.nuget\\packages\\orchardcore.module.targets\\2.2.1\\build\\package.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60846751-8D0F-4422-99F4-E18E6553AFEB}|OrchardCore.Theme1\\OrchardCore.Theme1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.theme1\\views\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60846751-8D0F-4422-99F4-E18E6553AFEB}|OrchardCore.Theme1\\OrchardCore.Theme1.csproj|solutionrelative:orchardcore.theme1\\views\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60846751-8D0F-4422-99F4-E18E6553AFEB}|OrchardCore.Theme1\\OrchardCore.Theme1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.theme1\\manifest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60846751-8D0F-4422-99F4-E18E6553AFEB}|OrchardCore.Theme1\\OrchardCore.Theme1.csproj|solutionrelative:orchardcore.theme1\\manifest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\views\\urgency.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\views\\urgency.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\orchardcore.cms.module1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\orchardcore.cms.module1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\migrations\\urgencypartmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\migrations\\urgencypartmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\indexing\\urgencypartindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\indexing\\urgencypartindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\handlers\\urgencyparthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\handlers\\urgencyparthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|c:\\users\\mp\\source\\repos\\orchardcore.cms.web1\\orchardcore.cms.module1\\drivers\\urgencypartdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFA8BFA-32D1-4952-A5D3-F55AD0D424E7}|OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj|solutionrelative:orchardcore.cms.module1\\drivers\\urgencypartdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,122 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Urgency.cs",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Models\\Urgency.cs",
-              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Models\\Urgency.cs",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Models\\Urgency.cs",
-              "RelativeToolTip": "OrchardCore.Cms.Module1\\Models\\Urgency.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T21:17:25.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Package.Build.props",
-              "DocumentMoniker": "C:\\Users\\MP\\.nuget\\packages\\orchardcore.module.targets\\2.2.1\\build\\Package.Build.props",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\orchardcore.module.targets\\2.2.1\\build\\Package.Build.props",
-              "ToolTip": "C:\\Users\\MP\\.nuget\\packages\\orchardcore.module.targets\\2.2.1\\build\\Package.Build.props",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\orchardcore.module.targets\\2.2.1\\build\\Package.Build.props",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-11-29T21:14:54.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Theme1\\Views\\Layout.cshtml",
-              "RelativeDocumentMoniker": "OrchardCore.Theme1\\Views\\Layout.cshtml",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Theme1\\Views\\Layout.cshtml",
-              "RelativeToolTip": "OrchardCore.Theme1\\Views\\Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T20:01:03.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Manifest.cs",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Theme1\\Manifest.cs",
-              "RelativeDocumentMoniker": "OrchardCore.Theme1\\Manifest.cs",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Theme1\\Manifest.cs",
-              "RelativeToolTip": "OrchardCore.Theme1\\Manifest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T19:48:18.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrchardCore.Cms.Module1.csproj",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj",
-              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj",
-              "RelativeToolTip": "OrchardCore.Cms.Module1\\OrchardCore.Cms.Module1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-29T19:00:06.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UrgencyDisplayDriver.cs",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Drivers\\UrgencyDisplayDriver.cs",
-              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Drivers\\UrgencyDisplayDriver.cs",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Drivers\\UrgencyDisplayDriver.cs",
-              "RelativeToolTip": "OrchardCore.Cms.Module1\\Drivers\\UrgencyDisplayDriver.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:42:45.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Urgency.cshtml",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\Urgency.cshtml",
-              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Views\\Urgency.cshtml",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\Urgency.cshtml",
-              "RelativeToolTip": "OrchardCore.Cms.Module1\\Views\\Urgency.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T18:38:33.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Startup.cs",
               "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Startup.cs",
               "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Startup.cs",
               "RelativeToolTip": "OrchardCore.Cms.Module1\\Startup.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T12:04:22.973Z"
+              "WhenOpened": "2025-12-04T11:37:10.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UrgencyPartMigrations.cs",
+              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Migrations\\UrgencyPartMigrations.cs",
+              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Migrations\\UrgencyPartMigrations.cs",
+              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Migrations\\UrgencyPartMigrations.cs",
+              "RelativeToolTip": "OrchardCore.Cms.Module1\\Migrations\\UrgencyPartMigrations.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAuwGQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:33:06.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NotesController.cs",
-              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Controllers\\NotesController.cs",
-              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Controllers\\NotesController.cs",
-              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Controllers\\NotesController.cs",
-              "RelativeToolTip": "OrchardCore.Cms.Module1\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "UrgencyPartIndex.cs",
+              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Indexing\\UrgencyPartIndex.cs",
+              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Indexing\\UrgencyPartIndex.cs",
+              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Indexing\\UrgencyPartIndex.cs",
+              "RelativeToolTip": "OrchardCore.Cms.Module1\\Indexing\\UrgencyPartIndex.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:27:23.061Z",
+              "WhenOpened": "2025-12-04T10:25:50.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UrgencyPartDisplayDriver.cs",
+              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Drivers\\UrgencyPartDisplayDriver.cs",
+              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Drivers\\UrgencyPartDisplayDriver.cs",
+              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Drivers\\UrgencyPartDisplayDriver.cs",
+              "RelativeToolTip": "OrchardCore.Cms.Module1\\Drivers\\UrgencyPartDisplayDriver.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:46:34.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UrgencyPartHandler.cs",
+              "DocumentMoniker": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Handlers\\UrgencyPartHandler.cs",
+              "RelativeDocumentMoniker": "OrchardCore.Cms.Module1\\Handlers\\UrgencyPartHandler.cs",
+              "ToolTip": "C:\\Users\\MP\\source\\repos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Handlers\\UrgencyPartHandler.cs",
+              "RelativeToolTip": "OrchardCore.Cms.Module1\\Handlers\\UrgencyPartHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:41:51.95Z",
               "EditorCaption": ""
             }
           ]
