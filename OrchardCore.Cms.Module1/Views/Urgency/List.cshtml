@@ -14,17 +14,12 @@
         {
             var urgencyPart = item.Content.UrgencyPart;
 
-            <div class="col-md-4 mb-4">
-                <div class="card border-danger">
-                    <div class="card-header bg-danger text-white">
-                        @item.DisplayText
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Urgency Level: @urgencyPart.UrgencyMeter</h5>
-                        <p class="card-text">@urgencyPart.Description</p>
-                        <p class="text-muted"><small>@urgencyPart.UpdatedAt</small></p>
-                    </div>
-                </div>
+            <div style="margin-bottom: 20px;">
+                <h3>@item.DisplayText</h3>
+                <div><strong>Urgency Level:</strong> @urgencyPart.UrgencyMeter</div>
+                <p>@urgencyPart.Description</p>
+                <small style="color: grey;">@urgencyPart.UpdatedAt</small>
+                <br>
             </div>
         }
     }
