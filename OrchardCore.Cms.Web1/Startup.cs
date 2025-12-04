@@ -1,8 +1,17 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using OrchardCore.Cms.Module1.Drivers;
+using OrchardCore.Cms.Module1.Migrations;
+using OrchardCore.Cms.Module1.Models;
+using OrchardCore.Cms.Module1.Handlers;
+using OrchardCore.ContentManagement;
+using OrchardCore.ContentManagement.Display.ContentDisplay;
+using OrchardCore.ContentManagement.Handlers;
+using OrchardCore.Data;
+using OrchardCore.Data.Migration;
 
 namespace OrchardCore.Cms.Web1
 {
-    public class Startup
+    public class Startup 
     {
         public void ConfigureServices(IServiceCollection services)
         {

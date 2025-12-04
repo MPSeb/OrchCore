@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MP/source/repos/OrchardCore.Cms.Web1/OrchardCore.Cms.Module1/Views/Urgency.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJnZW5jeS5jc2h0bWw=
+[C:/Users/MP/source/repos/OrchardCore.Cms.Web1/OrchardCore.Cms.Module1/Views/UrgencyPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJnZW5jeVBhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MP/source/repos/OrchardCore.Cms.Web1/OrchardCore.Cms.Module1/Views/UrgencyPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJnZW5jeVBhcnQuRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MP/source/repos/OrchardCore.Cms.Web1/OrchardCore.Cms.Module1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

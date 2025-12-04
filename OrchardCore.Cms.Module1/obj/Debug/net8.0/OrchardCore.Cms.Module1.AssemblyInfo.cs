@@ -16,12 +16,16 @@ using System.Reflection;
     "OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\Notes\\Create.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\Notes\\List.cshtml|C:\\Users\\MP\\source\\repos\\Or" +
     "chardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\Notes\\List.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\Urgency.cshtml|C:\\Users\\MP\\source\\repos\\Orcha" +
-    "rdCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\Urgency.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.cshtml|C:\\Users\\MP\\source\\repos\\O" +
+    "rchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.Edit.cshtml|C:\\Users\\MP\\source\\re" +
+    "pos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\_ViewImports.cshtml|C:\\Users\\MP\\source\\repos\\" +
+    "OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\_ViewImports.cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCore.Cms.Module1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3386ad1169e198e358de08c2d046961161b7692e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3445eac2c37a9e633739e05b11c68c2fa4a15851")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrchardCore.Cms.Module1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrchardCore.Cms.Module1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

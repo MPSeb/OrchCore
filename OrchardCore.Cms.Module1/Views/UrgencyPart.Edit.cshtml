@@ -1,0 +1,28 @@
+﻿@using OrchardCore.Cms.Module1.ViewModels
+@using OrchardCore.Cms.Module1.Models
+@model UrgencyPartViewModel
+
+<fieldset class="form-group" asp-validation-class-for="Title">
+    <label asp-for="Title" class="form-label">Title</label>
+    <input asp-for="Title" class="form-control" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Description">
+    <label asp-for="Title" class="form-label">Description</label>
+    <label asp-for="Description" class="form-label"><span asp-validation-for="Description">Description</span></label>
+    <input asp-for="Description" class="form-control">
+    <span asp-validation-for="UrgencyMeter" class="text-danger"></span>
+</fieldset>
+
+<div class="mb-3">
+    <label asp-for="UrgencyMeter" class="form-label">Urgency Level (Number)</label>
+    <input asp-for="UrgencyMeter" type="number" class="form-control" />
+    <span asp-validation-for="UrgencyMeter" class="text-danger"></span>
+</div>
+
+<fieldset class="form-group" asp-validation-class-for="UpdatedAt">
+    <label asp-for="UpdatedAt" class="form-label"><span asp-validation-for="UpdatedAt"></span></label>
+    <input asp-for="UpdatedAt" type="datetime-local" class="form-control" value="@Model.UpdatedAt.ToString("yyyy-MM-ddTHH:mm")" />
+    <span asp-validation-for="UpdatedAt" class="text-danger"></span>
+</fieldset>
