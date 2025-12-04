@@ -16549,3 +16549,143 @@
 2025-12-04 15:30:08.3753||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
 2025-12-04 15:30:08.4399||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
 2025-12-04 15:30:08.4399||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 16:59:37.5593||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 16:59:37.6130||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 16:59:37.6130||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:02:53.3395||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:02:53.4002||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:02:53.4060||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:09:55.7096||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:09:55.7804||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:09:55.7804||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:10:32.6411||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:10:32.7012||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:10:32.7060||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:11:44.1767||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:11:44.2335||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:11:44.2335||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:18:19.7192||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:18:19.8106||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:18:19.8155||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:19:37.3677||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:19:37.5083||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:19:37.5159||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:19:41.4982|Default|00-3ff0afcc18c9088758e439eceb4c093b-bc7350394803b04a-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: An item with the same key has already been added. Key: area
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at OrchardCore.Mvc.ModularApplicationModelProvider.OnProvidersExecuted(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapDynamicControllerRoute[TTransformer](IEndpointRouteBuilder endpoints, String pattern, Object state)
+   at OrchardCore.HomeRoute.Startup.Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+   at OrchardCore.Modules.ShellPipelineExtensions.ConfigurePipelineAsync(ApplicationBuilder builder)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineInternalAsync(ShellContext context)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineAsync(ShellContext context)
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at OrchardCore.Mvc.ModularApplicationModelProvider.OnProvidersExecuted(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapDynamicControllerRoute[TTransformer](IEndpointRouteBuilder endpoints, String pattern, Object state)
+   at OrchardCore.HomeRoute.Startup.Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+   at OrchardCore.Modules.ShellPipelineExtensions.ConfigurePipelineAsync(ApplicationBuilder builder)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineInternalAsync(ShellContext context)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineAsync(ShellContext context)
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 17:19:41.5795|Default|00-1cc38fcf890dd2b35d04bda0058e69a3-5bed08feb85ada90-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: An item with the same key has already been added. Key: area
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at OrchardCore.Mvc.ModularApplicationModelProvider.OnProvidersExecuted(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapDynamicControllerRoute[TTransformer](IEndpointRouteBuilder endpoints, String pattern, Object state)
+   at OrchardCore.HomeRoute.Startup.Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+   at OrchardCore.Modules.ShellPipelineExtensions.ConfigurePipelineAsync(ApplicationBuilder builder)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineInternalAsync(ShellContext context)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineAsync(ShellContext context)
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at OrchardCore.Mvc.ModularApplicationModelProvider.OnProvidersExecuted(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapDynamicControllerRoute[TTransformer](IEndpointRouteBuilder endpoints, String pattern, Object state)
+   at OrchardCore.HomeRoute.Startup.Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+   at OrchardCore.Modules.ShellPipelineExtensions.ConfigurePipelineAsync(ApplicationBuilder builder)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineInternalAsync(ShellContext context)
+   at OrchardCore.Modules.ShellPipelineExtensions.BuildPipelineAsync(ShellContext context)
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 17:20:36.1211||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:20:36.2178||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:20:36.2178||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 

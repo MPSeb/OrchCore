@@ -80,7 +80,7 @@ namespace MyNotesModule.Controllers
         {
             IEnumerable<ContentItem> items = Enumerable.Empty<ContentItem>();
 
-                var contentTypes = new [] { "Note", "ProjectNote"};
+                var contentTypes = new [] { "Note", "ProjectNote", "Note2" };
                 items = await _session
                     .Query<ContentItem, ContentItemIndex>(x => x.ContentType.IsIn(contentTypes) && x.Published)
                     .ListAsync();

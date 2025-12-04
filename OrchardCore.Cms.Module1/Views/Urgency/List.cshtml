@@ -1,0 +1,31 @@
+﻿@using OrchardCore.ContentManagement
+@model IEnumerable<ContentItem>
+
+<h1>High Urgency Notes (Level > 5)</h1>
+
+<div class="row">
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No urgent notes found!</div>
+    }
+    else
+    {
+        @foreach (var item in Model)
+        {
+            var urgencyPart = item.Content.UrgencyPart;
+
+            <div class="col-md-4 mb-4">
+                <div class="card border-danger">
+                    <div class="card-header bg-danger text-white">
+                        @item.DisplayText
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Urgency Level: @urgencyPart.UrgencyMeter</h5>
+                        <p class="card-text">@urgencyPart.Description</p>
+                        <p class="text-muted"><small>@urgencyPart.UpdatedAt</small></p>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

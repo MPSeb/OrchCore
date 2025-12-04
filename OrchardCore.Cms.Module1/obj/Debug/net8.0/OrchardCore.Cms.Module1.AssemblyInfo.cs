@@ -20,12 +20,14 @@ using System.Reflection;
     "rchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.Edit.cshtml|C:\\Users\\MP\\source\\re" +
     "pos\\OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\UrgencyPart.Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\Urgency\\List.cshtml|C:\\Users\\MP\\source\\repos\\" +
+    "OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\Urgency\\List.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Cms.Module1\\Views\\_ViewImports.cshtml|C:\\Users\\MP\\source\\repos\\" +
     "OrchardCore.Cms.Web1\\OrchardCore.Cms.Module1\\Views\\_ViewImports.cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCore.Cms.Module1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6144b10b1cab8b823e98abc5b0f41af86c223741")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844436c260443089fabcef0acf118b1064982899")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrchardCore.Cms.Module1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrchardCore.Cms.Module1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
