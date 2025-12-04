@@ -16689,3 +16689,110 @@
 2025-12-04 17:20:36.1211||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
 2025-12-04 17:20:36.2178||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
 2025-12-04 17:20:36.2178||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:27:38.6631||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:27:38.7265||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:27:38.7265||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 
+2025-12-04 17:27:50.6368|Default|00-01fd7c24efca3e3d085c56cd1b951d46-2832e4789e9feb4d-00|3|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|ERROR|The view 'ListAll' was not found. Searched locations: /Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Urgency/ListAll.cshtml, /Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Shared/ListAll.cshtml, /Areas/OrchardCore.Cms.Web1/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Theme1/Views/OrchardCore.Cms.Module1/Urgency/ListAll.cshtml, /Areas/OrchardCore.Theme1/Views/OrchardCore.Cms.Module1/Shared/ListAll.cshtml, /Areas/OrchardCore.Theme1/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Workflows/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Roles/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Placements/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Media/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Rules/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.ContentTypes/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Contents/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Settings/Views/Shared/ListAll.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Urgency/ListAll.en-US.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Urgency/ListAll.en.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Urgency/ListAll.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/ListAll.en-US.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/ListAll.en.cshtml, /Areas/OrchardCore.Cms.Module1/Views/Shared/ListAll.cshtml, /Views/Shared/ListAll.en-US.cshtml, /Views/Shared/ListAll.en.cshtml, /Views/Shared/ListAll.cshtml, /Pages/Shared/ListAll.en-US.cshtml, /Pages/Shared/ListAll.en.cshtml, /Pages/Shared/ListAll.cshtml 
+2025-12-04 17:27:50.6639|Default|00-01fd7c24efca3e3d085c56cd1b951d46-2832e4789e9feb4d-00|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'ListAll' was not found. The following locations were searched:
+/Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Urgency/ListAll.cshtml
+/Areas/OrchardCore.Cms.Web1/Views/OrchardCore.Cms.Module1/Shared/ListAll.cshtml
+/Areas/OrchardCore.Cms.Web1/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Theme1/Views/OrchardCore.Cms.Module1/Urgency/ListAll.cshtml
+/Areas/OrchardCore.Theme1/Views/OrchardCore.Cms.Module1/Shared/ListAll.cshtml
+/Areas/OrchardCore.Theme1/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Workflows/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Roles/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Placements/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Media/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Rules/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.ContentTypes/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Contents/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Settings/Views/Shared/ListAll.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Urgency/ListAll.en-US.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Urgency/ListAll.en.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Urgency/ListAll.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/ListAll.en-US.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/ListAll.en.cshtml
+/Areas/OrchardCore.Cms.Module1/Views/Shared/ListAll.cshtml
+/Views/Shared/ListAll.en-US.cshtml
+/Views/Shared/ListAll.en.cshtml
+/Views/Shared/ListAll.cshtml
+/Pages/Shared/ListAll.en-US.cshtml
+/Pages/Shared/ListAll.en.cshtml
+/Pages/Shared/ListAll.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)    at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at SixLabors.ImageSharp.Web.Middleware.ImageSharpMiddleware.Invoke(HttpContext httpContext, Boolean retry)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Liquid.ScriptsMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OrchardCore.Diagnostics.DiagnosticsStartupFilter.<>c__DisplayClass3_0.<<Configure>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at OrchardCore.ContentPreview.PreviewStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Users.Services.ExternalAuthenticationsStartupFilter.<>c.<<Configure>b__0_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Modules.ModularTenantRouterMiddleware.Invoke(HttpContext httpContext)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.<>c__DisplayClass4_0.<<Invoke>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Environment.Shell.Scope.ShellScope.UsingAsync(Func`2 execute, Boolean activateShell)
+   at OrchardCore.Modules.ModularTenantContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 17:28:42.7165||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2025-12-04 17:28:42.8138||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2025-12-04 17:28:42.8138||||Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\MP\source\repos\OrchardCore.Cms.Web1\OrchardCore.Cms.Web1 

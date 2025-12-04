@@ -1,7 +1,7 @@
 ﻿@using OrchardCore.ContentManagement
 @model IEnumerable<ContentItem>
 
-<h1>High Urgency Notes (Level > 5)</h1>
+<h1>@(ViewBag.Title ?? "Urgency List")</h1>
 
 <div class="row">
     @if (!Model.Any())

@@ -26,17 +26,29 @@ namespace OrchardCore.Cms.Module1.Controllers
         }
 
 
-        [Route("Urgencies")]
+        [Route("Urgencies/Urgent")]
         public async Task<IActionResult> List()
         {
             var min = 5;
-
+            ViewBag.Title = "Urgenct Notes";
             var urgencies = await _session
                 .Query<ContentItem, ContentItemIndex>(index => index.ContentType == "Note2")
                 .With <UrgencyPartIndex>(urgencyPartIndex => urgencyPartIndex.UrgencyMeter > min)
                 .ListAsync();
 
             return View(urgencies);
+        }
+
+        [Route("Urgencies/All")]
+        public async Task<IActionResult> ListAll()
+        {
+            ViewBag.Title = "All Urgency Notes";
+
+            var urgencies = await _session
+                    .Query<ContentItem, ContentItemIndex>(index => index.ContentType == "Note2" && index.Published)
+                    .ListAsync();
+
+            return View("List", urgencies);
         }
     }
 }

@@ -111,7 +111,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCore.Cms.Web1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844436c260443089fabcef0acf118b1064982899")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f078586f4ed437fdd3ce177f14af0aca112254d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrchardCore.Cms.Web1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrchardCore.Cms.Web1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
